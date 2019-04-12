@@ -36,14 +36,24 @@
 
 
 //////////////////	Step 4	//////////////////
-function makeid(l){
-    var i, text = "", chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    for(i=0; i < l; i++ ){  
-        text += chars.charAt(Math.floor(Math.random() * chars.length));
-    }
-    return text;
-}
-window.console.log(makeid(8));
+//function id(howMany){
+//    var i, text = "", chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//    for(i=0; i < howMany; i++ ){  
+//        text += chars.charAt(Math.floor(Math.random() * chars.length));
+//    }
+//    return text;
+//}
+//window.console.log(id(15));
 
 
 //////////////////	Step 5	//////////////////
+//function longCountry(name){
+//    return name.reduce(function(longName, country) {
+//        if (longName.length > country.length)
+//            return longName;
+//        else
+//            return country;
+//    }, "");
+//}
+//window.console.log(longCountry(["Australia", "Germany", "United States of America"]));
+
